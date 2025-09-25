@@ -25,10 +25,18 @@ const client = new Client({
     authStrategy: new LocalAuth({
         clientId: 'mannx-bot',
     }),
-    // Hapus webVersionCache untuk stabilitas
+    puppeteer: {
+        headless: true, // Penting untuk server
+        args: [
+            '--no-sandbox',
+            '--disable-setuid-sandbox',
+            '--disable-dev-shm-usage',
+            '--no-zygote'
+        ],
+    },
 });
 
-// Gunakan Map untuk menyimpan sesi setiap pengguna
+
 const userSessions = new Map();
 
 client.on('ready', () => {
