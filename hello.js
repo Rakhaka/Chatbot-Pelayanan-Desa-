@@ -1,11 +1,18 @@
-exports.hello = `Selamat datang di layanan informasi Desa Badau!\n
-Saya disini untuk membantu anda mendapatkan informasi dengan lebih mudah dan cepat. Pilih layanan yang Anda butuhkan untuk mengakses informasi seputar desa kami.\n
-Gunakan opsi atau ketik angka sesuai pilihan yang Anda inginkan:\n
-1. Struktur Data Administratif Desa
-Lihat susunan perangkat desa dan peran masing-masing untuk membantu Anda
-berinteraksi dengan tepat.\n2. Data Layanan Administrasi
-Informasi mengenai layanan administrasi yang tersedia untuk memudahkan keperluan
-Anda.\n3. Data Fasilitas Desa dan Lokasi
-Temukan berbagai fasilitas yang tersedia di desa untuk mendukung kebutuhan dan
-kenyamanan masyarakat.\n
-Kami siap membantu! Silakan pilih salah satu opsi di atas. Jika layanan yang Anda butuhkan tidak tercantum dalam daftar ini, silakan datang langsung ke Kantor Desa Badau untuk informasi lebih lanjut. Kami siap membantu kebutuhan Anda.`;
+
+exports.hello = `*🏛️ Selamat Datang di Layanan Digital Desa Badau 🏛️*
+
+_Kami siap membantu segala kebutuhan informasi dan administrasi Anda._
+
+Silakan pilih salah satu menu di bawah ini untuk memulai:
+
+*1. 📊 Struktur Data Desa*
+   _Lihat data perangkat dan kependudukan desa._
+
+*2. 📄 Layanan Administrasi*
+   _Panduan untuk mengurus berbagai surat keterangan._
+
+*3. 🏡 Fasilitas Desa*
+   _Informasi mengenai fasilitas yang tersedia di desa._
+
+-----------------------------------
+_Silakan balas dengan *nomor* pilihan Anda. Contoh: *1*_`;
